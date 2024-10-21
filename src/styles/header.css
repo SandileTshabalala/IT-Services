@@ -1,0 +1,71 @@
+.header-time {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    z-index: 1030;
+    width: 100%;
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    transition: top 0.3s ease; 
+  }
+  
+  .navbar.fixed-top {
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headin-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  
+  .nav-item.is-active .nav-link {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    border-radius: 5px;
+    padding: 6px 12px;
+    justify-content: space-between;
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #5C636A;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 0 10px;
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top button {
+    background-color: rgb(47, 47, 47);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-to-top button:hover {
+    background-color: #0056b3;
+  }
